@@ -1,0 +1,70 @@
+ #include <stdio.h>
+
+ #define lenght 10
+ #define widht 5
+ #define newline '\n'
+
+ int main()
+ {
+     int area; 
+     area = lenght * widht;
+
+     const float pi = 3.14;
+
+     printf("the value of lenght %d",lenght);
+     printf("%c"newline);
+     printf("the value of lenght %d",widht);
+     printf("%c"newline);
+     printf("the value of lenght %d",area);
+
+     return = 20;
+     
+ } 
+
+ int main()
+ {
+     int b = 10;
+     int c = 10;
+     float y = 3.14;
+     char var = 'c';
+
+     printf("value of b = %d and value of c = %d",b,c);
+     printf("\nvalue of y = %f",y);
+     printf("\nValue of var = %c",var);
+
+     return 0;
+
+ }
+ 
+ --------------------------------------------------------
+
+ include<stdio.h>
+ include<conio.h>
+ void main(void)
+ {
+     int r,s,c;
+     for (r = 1; r <= 9; r += 2 ) // rows         r = 3
+     {
+         for (s = 9; s >= 1; s-=2) // space       S = 9  9>=3
+         {
+             printf("");
+         }
+
+         for (c = 1; c <= r; c++) // columns       C=2    2<=3
+         {
+             printf("*");
+         }
+         printf("\n");
+     }
+
+
+     _getch();
+
+ }
+
+
+ // pattern
+ //    *    1
+ //   ***   3
+ //  *****  5
+ // ********* 9
